@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  max-width: 100%;
+  
+}
+.container{
+  background-image: url(hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 400px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+ 
+  
+}
+.nav {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-shadow: 5px 5px 5px rgb(108, 106, 106) ;
+}
+li{
+  list-style: none;
+}
+button{
+  padding: 10px;
+  border-radius: 10px;
+  border-style: hidden;
+  width: 170px;
+  font-size: 1em;
+  font-weight: bolder;
+
+}
+h1{
+  text-align: center;
+  text-shadow: 5px 5px 5px rgb(108, 106, 106);
+}
+button:hover{
+  background-color: brown;
+  cursor: pointer;
+  color: white;
+  
+}
+button:active{
+  background-color: rgb(174, 109, 109);
+  }
+   .sub-menu-wrap {
+    position:absolute;
+    top: 20%;
+    left: 450px;
+    width: 300px;
+    display: none;
+    transition: max-height 0.4s; 
+  } 
+  .sub-menu-wrap.open-menu{
+    max-height: 400px;
+    display: block;
+  }
+.sub-menu {
+  padding: 20px;
+  width: 400px;
+  border-radius: 30px;
+  background-color: rgba(1, 1, 1, 0.6);
+  color: white;
+  box-shadow: 5px 5px 5px rgb(108, 106, 106);
+  text-shadow: 10px 10px 10px rgb(251, 246, 246);
+  max-height: 500px;
+  
+
+}
+.sub-menu div {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+input{
+  height: 40px;
+  font-size: 1em;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  
+}
+.checkbox input{
+  height: 20px;
+}
+input:focus{
+  outline: none;
+  
+}
+label{
+  font-size: 20px;
+}
+#library-list{
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+
+}
+
+
+  
